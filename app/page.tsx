@@ -141,8 +141,8 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             {[
-              { value: '2M+', label: 'Annual Conversions' },
-              { value: '$2M+', label: 'Revenue Driven' },
+              { value: '1M+', label: 'Annual Conversions' },
+              { value: '$20M+', label: 'Revenue Driven' },
               { value: '100+', label: 'Active Brands' },
             ].map((metric) => (
               <div key={metric.label} className="text-center">
